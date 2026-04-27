@@ -1,51 +1,76 @@
-📌 Project Title
+📊 Machine Learning Learning Journey
 
-Titanic Dataset — Machine Learning Models (Week 1)
+This repository documents my journey of learning and applying Machine Learning step by step, moving from fundamentals to building real-world projects.
 
-📊 Overview
+Instead of just focusing on theory, I have been consistently working on understanding concepts and applying them through hands-on practice, mini projects, and end-to-end implementations.
 
-This project is part of my machine learning learning journey where I applied fundamental ML models on a real-world dataset.
+## 🚀 What this repository includes
 
-The goal was to understand how different models behave, how to preprocess data, and how to evaluate results properly.
+### 🔹 Foundations (Week 1 & 2)
 
-📁 Dataset
-Titanic dataset
-Contains passenger details like age, gender, class, and survival status
-⚙️ Models Used
-🔹 1. Linear Regression
-Used to predict Fare (continuous value)
-Applied log transformation to handle skewed data
-Evaluated using Mean Squared Error (MSE)
+* Python basics for data handling (lists, loops, conditions, functions)
+* NumPy for numerical operations and array manipulation
+* Pandas for data loading, cleaning, filtering, and aggregation
 
-👉 Insight:
-Model performance improved significantly after handling skewness in data
+### 🔹 Data Handling & Analysis (Week 3)
 
-🔹 2. Logistic Regression
-Used for classification (Survived: Yes/No)
-Evaluated using Accuracy & Confusion Matrix
+* Data preprocessing and feature handling
+* Handling categorical variables
+* Understanding data distributions and patterns
 
-👉 Insight:
-Model achieved very high accuracy, indicating strong patterns in the dataset
+### 🔹 Machine Learning Basics (Week 4 onwards)
 
-🔹 3. K-Nearest Neighbors (KNN)
-Distance-based classification model
-Applied feature scaling for better performance
+* Linear Regression (baseline model)
+* Random Forest (improved performance)
+* Model evaluation using MAE & RMSE
+* Model comparison and selection
 
-👉 Insight:
-Produced similar predictions to Logistic Regression, showing strong feature influence
+### 🔹 End-to-End ML Project
 
-🔧 Key Steps
-Data Cleaning (handling missing values)
-Feature Encoding (categorical → numerical)
-Feature Transformation (log transformation for skewed data)
-Feature Scaling (for KNN)
-Model Training & Evaluation
-📈 Results
-Model	Performance
-Linear Regression	Low MSE after transformation
-Logistic Regression	High Accuracy
-KNN	High Accuracy (after scaling)
-🧠 Key Learnings
-Data preprocessing has a huge impact on model performance
-Different models can give similar outputs when data has strong patterns
-Evaluation is not just about accuracy, but also understanding model behavior
+**Medical Insurance Cost Prediction**
+
+* Data preprocessing and feature engineering
+* Model building and evaluation
+* Comparing multiple models
+* Saving trained model
+* Deploying using Streamlit
+
+### 🔹 Advanced Project (MLOps Concept)
+
+**Data Drift Detection System**
+
+* Detects changes between training and new data
+* Identifies feature-level drift
+* Provides drift report and summary
+* Built interactive app using Streamlit
+
+## 🧠 Key Learnings
+
+* Machine Learning is not just about models, but understanding data
+* Model performance depends heavily on data quality
+* Comparing models is more important than using just one
+* Deployment helps in understanding real-world usage
+* Monitoring (like data drift) is critical in production systems
+
+## 🛠️ Tech Stack
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* Streamlit
+
+## 📌 What I’m currently working on
+
+* Building more real-world ML projects
+* Improving model performance and understanding
+* Exploring data visualization and model explainability
+* Learning advanced ML and system-level concepts
+
+## 🎯 Goal
+
+To become industry-ready by building strong fundamentals and applying them in practical, real-world scenarios instead of just theoretical learning.
+
+## 📬 Connect
+
+If you have suggestions or feedback, feel free to connect or share your thoughts!
